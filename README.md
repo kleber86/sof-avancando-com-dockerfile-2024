@@ -5,14 +5,14 @@
 </div>
 
 ### :memo: Aulas
-- [ ] Introdução
-- [ ] Sintaxe do Dockerfile
-- [ ] Melhores práticas ao se trabalhar com a instrução RUN
-- [ ] Trabalhando com Workdir
-- [ ] Instruções de copias de arquivos
-- [ ] Trabalhando com variáveis de ambiente
-- [ ] Trabalhando com ENTRYPOINT e CMD
-- [ ] Trabalhando com EXPOSE e USER
+- [x] Introdução
+- [x] Sintaxe do Dockerfile
+- [x] Melhores práticas ao se trabalhar com a instrução RUN
+- [x] Trabalhando com Workdir
+- [x] Instruções de copias de arquivos
+- [x] Trabalhando com variáveis de ambiente
+- [x] Trabalhando com ENTRYPOINT e CMD
+- [x] Trabalhando com EXPOSE e USER
 - [ ] Introdução ao Docker-Compose
 - [ ] Trabalhando com build no Docker-Compose
 - [ ] Trabalhando com CMD e ENTRYPOINT no compose
