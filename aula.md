@@ -17,3 +17,39 @@ USER son
 
 CMD [ "flask", "run" ]
 ```
+
+# Criando uma imagem docker-compose, com rede, volume e dependencia
+```
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/code
+    environment:
+      - FLASK_RUN_HOST=127.0.0.1
+    depends_on:
+      - redis
+    networks:
+      - webnet
+      - sonnet
+  redis:
+    image: redis
+    networks:
+      - webnet
+    volumes:
+      - dbdata:/data
+  ubuntu:
+    build:
+      context: ./demo
+    command: ["ping", "localhost"]
+    networks:
+      - sonnet
+networks:
+  webnet:
+  sonnet:
+volumes:
+  dbdata:
+```

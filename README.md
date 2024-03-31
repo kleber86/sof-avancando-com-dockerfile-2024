@@ -13,14 +13,14 @@
 - [x] Trabalhando com variáveis de ambiente
 - [x] Trabalhando com ENTRYPOINT e CMD
 - [x] Trabalhando com EXPOSE e USER
-- [ ] Introdução ao Docker-Compose
-- [ ] Trabalhando com build no Docker-Compose
-- [ ] Trabalhando com CMD e ENTRYPOINT no compose
-- [ ] Trabalhando com variáveis de ambiente no Docker-Compose
-- [ ] Depends_on
-- [ ] Trabalhando com redes no docker-compose
-- [ ] Trabalhando com volumes
-- [ ] Conclusão
+- [x] Introdução ao Docker-Compose
+- [x] Trabalhando com build no Docker-Compose
+- [x] Trabalhando com CMD e ENTRYPOINT no compose
+- [x] Trabalhando com variáveis de ambiente no Docker-Compose
+- [x] Depends_on
+- [x] Trabalhando com redes no docker-compose
+- [x] Trabalhando com volumes
+- [x] Conclusão
 
 ### :hammer: Tecnologias
  <ul>
